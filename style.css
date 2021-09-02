@@ -1,0 +1,679 @@
+/* Roboto font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+/* ========================HEADER==================== */
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 150px;
+    background-color: #FAF6F5;
+}
+
+header .logo{
+    font-family: 'sans-serif';
+    font-size: 35px;
+    font-weight: bold;
+    font-style: italic;
+    border-bottom: 2px solid black;
+}
+
+header .logo a:link{
+    text-decoration: none;
+    color: black;
+}
+
+nav {
+    display: flex;
+    
+}
+
+nav .nav-item{
+    font-family: 'Roboto', sans-serif;
+    list-style: none;
+    font-size: 20px;
+    padding: 20px;
+}
+
+nav .nav-item a:link{
+    text-decoration: none;
+}
+
+header .nav-icons a{
+    padding: 10px;
+}
+
+.a-color{
+    color: grey;
+}
+
+.a-color:hover{
+    color: rgb(0, 0, 0);
+}
+
+/* ========================Banner==================== */
+
+.banner{
+    background: #F4F0ED;
+    height: auto;
+}
+
+.banner .banner-div{
+    display: flex;
+    justify-content: center;
+}
+
+.banner .banner-div .banner-content-div{
+    width: 700px;
+}
+
+.banner .banner-div .banner-content-div h1{
+    position: relative;
+    top: 50px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 60px;
+    font-weight: 100;
+    
+}
+
+.banner .banner-div .banner-content-div p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    padding: 100px 200px 0px 0px;
+    line-height: 1.5;
+    color: grey;
+}
+
+/* SEARCH */
+.banner .banner-div .banner-content-div .search-wrapper{
+    width: 325px;
+}
+
+.banner .banner-div .banner-content-div .search-wrapper .search-box{
+    position: relative;
+    margin: 40px 0px 60px 0px;
+    width: 325px;
+    height: 45px;
+}
+
+.banner .banner-div .banner-content-div .search-wrapper .search-box .search-input{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: white;
+    border-width: 0;
+    font-family: 'Roboto', sans-serif;
+    padding: 10px;
+    font-size: 15px;
+}
+
+/* SEARCH ICON */
+.banner .banner-div .banner-content-div .icon-wrapper{
+    display: inline;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    bottom: 5px;
+    width: 40px;
+    background: #412F2C;
+    cursor: pointer;
+}
+
+.banner .banner-div .banner-content-div .search-icon{
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    color: white;
+    font-size: 20px;
+}
+
+/* SHOP NOW BUTTON */
+.banner .banner-div .banner-content-div .btn{
+    background: #412F2C;
+    display: inline-block;
+    padding: 15px 30px;
+}
+
+.banner .banner-div .banner-content-div .btn:hover{
+    background: black;
+}
+
+.banner .banner-div .banner-content-div .btn a{
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* IMAGE */
+.banner .banner-div .banner-image-div{
+    width: 600px;
+}
+
+.banner .banner-div .banner-image-div .banner-image-wrapper{
+    position: relative;
+    width: 500px;
+    height: 400px;
+    margin: 61px;
+}
+
+.banner .banner-div .banner-image-div .banner-image-wrapper img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+
+/* ARROW BUTTON */
+.banner .arrow-btn{
+    width: 100px;
+    height: 100px;
+    margin: 0px auto;
+}
+
+.arrow-wrapper{
+    position: relative;
+    padding: 30px 0;
+}
+
+.banner .arrow-btn .left-arrow{
+    position: absolute;
+    left: 0;
+    color: black;
+
+}
+
+.banner .arrow-btn .right-arrow{
+    position: absolute;
+    right: 0;
+    color: black;
+}
+
+/* ========================Business Patner==================== */
+.partner .partner-images-div{
+    display: flex;
+    justify-content: space-between;
+    margin: 100px;
+    border-top: .5px solid #d4d4d4;
+    border-bottom: .5px solid #d4d4d4;
+}
+
+.partner .partner-images-div .partner-images-wrapper{
+    position: relative;
+    width: 100px;
+    height: 100px;
+}
+
+.partner .partner-images-div .partner-images-wrapper img{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    filter: grayscale(100%);
+}
+
+/* ========================Our product==================== */
+
+main .product-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 100px;
+}
+
+main .product-wrapper .product-content{
+    width: 100%;
+}
+
+main .product-wrapper .product-content h1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 55px;
+}
+
+main .product-wrapper .product-content p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    padding: 40px 250px 40px 0px;
+    color: grey;
+    line-height: 1.5;
+}
+
+main .product-wrapper .product-discover{
+    width: 451px;
+}
+
+main .product-wrapper .product-discover a{
+    font-family: 'Roboto', sans-serif;
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+}
+
+/* ========================Product Card==================== */
+
+main .product-card-div{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 100px;
+}
+
+main .product-card-div .product-card{
+    width: 625px;
+}
+
+main .product-card-div .product-card .product-image-wrapper{
+    position: relative;
+    width: 625px;
+    height: 450px;
+}
+
+main .product-card-div .product-card .product-image-wrapper img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+/* PRODUCT DETAILS */
+main .product-card-div .product-card .product-details{
+    border: 1px solid #cacaca;
+    border-top: 0;
+    padding: 10px 25px;
+}
+
+main .product-card-div .product-card .product-details h1{
+    font-family: 'Roboto', sans-serif;
+    padding: 10px;
+    font-size: 50px;
+}
+
+main .product-card-div .product-card .product-details p{
+    font-family: 'Roboto', sans-serif;
+    padding: 10px;
+    font-size: 20px;
+    color: gray;
+    line-height: 1.5;
+}
+/* PRODUCT BUTTON */
+main .product-card-div .product-card .product-details .product-btn{
+    position: relative;
+    padding: 50px 0px 40px 0px;
+}
+
+main .product-card-div .product-card .product-details .product-btn .buy-now-btn{
+    background: #412F2C;
+    padding: 18px 25px;
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+main .product-card-div .product-card .product-details .product-btn .add-to-cart-btn{
+    margin-left: 25px;
+    background: white;
+    padding: 18px 25px;
+    border: 1px solid gray;
+    font-size: 18px;
+    color: #412F2C;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+main .product-card-div .product-card .product-details .product-btn .product-price{
+    display: inline-block;
+    position: absolute;
+    top: 45px;
+    right: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+}
+main .product-card-div .product-card .product-details .product-btn .btn:hover{
+    background: #412F2C;
+    color: white;
+}
+
+/* ========================Progress Data==================== */
+
+main .progress-div{
+    margin: 130px 50px;
+    /* background: #f9f1eb; */
+    background: #FCF8F5;
+}
+
+main .progress-div .progress-content{
+    display: flex;
+    justify-content: space-between;
+}
+
+main .progress-div .progress-content .progress-data{
+    padding: 70px;
+    text-align: center;
+}
+
+main .progress-div .progress-content .progress-data h1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 60px;
+    text-decoration: underline;
+}
+
+main .progress-div .progress-content .progress-data p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    color: gray;
+    padding-top: 30px;
+}
+
+/* ========================Product Profile==================== */
+
+main .product-profile-div{
+    margin: 0px 100px;
+}
+
+main .product-profile-div .product-profile{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;   
+}
+
+main .product-profile-div .product-profile .product-profile-content{
+    width: 700px;
+}
+
+main .product-profile-div .product-profile .product-profile-content h1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 65px;
+    padding: 25px;
+    line-height: 1.5;
+}
+
+main .product-profile-div .product-profile .product-profile-content p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    padding: 10px 10px 10px 20px;
+    line-height: 1.5;
+    color: gray;
+}
+/* PRODUCT PROFILE BUTTON */
+main .product-profile-div .product-profile .product-profile-content .product-profile-btn{
+    padding: 50px 20px;
+}
+
+main .product-profile-div .product-profile .product-profile-content .product-profile-btn .profile-buy-now-btn{
+    background: #412F2C;
+    padding: 18px 25px;
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+/* PRODUCT PROFILE IMAGE */
+main .product-profile-div .product-profile .product-profile-image-div{
+    width: 600px;
+}
+
+main .product-profile-div .product-profile .product-profile-image-div .product-profile-image-wrapper{
+    width: 600px;
+    height: 700px;
+    position: relative;
+}
+
+main .product-profile-div .product-profile .product-profile-image-div .product-profile-image-wrapper img{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    object-fit: fill;
+}
+
+/* ========================Profile==================== */
+
+main .profile-div{
+    margin: 100px;
+}
+
+main .profile-div .profile{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;   
+}
+
+/* PROFILE IMAGE */
+main .profile-div .profile .profile-image-div{
+    width: 600px;
+}
+
+main .profile-div .profile .profile-image-div .profile-image-wrapper{
+    width: 600px;
+    height: 600px;
+    position: relative;
+}
+
+main .profile-div .profile .profile-image-div .profile-image-wrapper img{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    object-fit: cover;
+}
+
+/* PROFILE CONTENT */
+main .profile-div .profile .profile-content{
+    width: 700px;
+}
+
+main .profile-div .profile .profile-content h1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    padding: 25px 25px 0px 25px;;
+}
+/* RATING STAR */
+main .profile-div .profile .profile-content .star-rating{
+    padding: 10px 0px 30px 25px;
+}
+
+main .profile-div .profile .profile-content .star-rating .star-icon{
+    color: #FEC046;
+    padding: 5px;
+}
+
+main .profile-div .profile .profile-content p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    padding: 10px 10px 10px 20px;
+    line-height: 1.5;
+    color: gray;
+}
+
+main .profile-div .profile .profile-content .profile-quote{
+    color: #70B587;
+}
+
+/* PROFILE NAME */
+main .profile-div .profile .profile-content .profile-name{
+    margin: 100px 10px;
+}
+
+main .profile-div .profile .profile-content .profile-name h1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    padding: 0px 20px;
+}
+
+main .profile-div .profile .profile-content .profile-name p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    padding: 10px 10px 10px 20px;
+    color: gray;
+}
+
+/* PROFILE ARROW BUTTON */
+.profile-name .profile-arrow-btn{
+    width: 100px;
+    padding: 5px 0px 0px 20px;
+}
+
+.profile-arrow-wrapper{
+    display: flex;
+    justify-content: space-between;    
+}
+
+.profile-name .profile-arrow-btn .profile-left-icon{
+    color: #70B587;
+    opacity: 30%;
+
+}
+
+.profile-name .profile-arrow-btn .profile-right-icon{
+    color: #70B587;
+}
+
+/* ========================Footer==================== */
+
+footer{
+    margin: 0px 50px;
+    background: #FAFAFA;
+}
+
+footer .subscribe-div{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 100px 0px 0px 0px;
+}
+
+footer .subscribe-text h1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+}
+
+/* FOOTER SEARCH */
+footer .subscribe-div .subscribe-search-wrapper{
+    width: 350px;
+}
+
+footer .subscribe-div .subscribe-search-wrapper .subscribe-search-box{
+    position: relative;
+    width: 350px;
+    height: 50px;
+}
+
+footer .subscribe-div .subscribe-search-wrapper .subscribe-search-box .subscribe-search-input{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: white;
+    border-width: 0;
+    font-family: 'Roboto', sans-serif;
+    padding: 10px;
+    font-size: 15px;
+}
+
+/* SEARCH ICON */
+footer .subscribe-div .subscribe-icon-text{
+    display: inline;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    bottom: 5px;
+    width: 100px;
+    background: #412F2C;
+    cursor: pointer;
+}
+
+footer .subscribe-div .subscribe-icon-text h5{
+    position: absolute;
+    top: 30%;
+    left: 20%;
+    color: white;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+}
+
+/* FOOTER BOTTOM */
+footer .footer-bottom{
+    padding: 75px 100px 70px 100px;
+}
+
+footer .footer-bottom .footer-bottom-content-div{
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid gray;
+}
+
+/* CONTENT 1 */
+footer .footer-bottom .footer-bottom-content-div .content1{
+    width: 500px;
+}
+
+footer .footer-bottom .footer-bottom-content-div .content1 h1{
+    font-family: 'sans-serif';
+    font-size: 50px;
+    font-style: italic;
+    text-decoration: underline;
+    padding: 50px 0px 50px 100px;
+}
+
+footer .footer-bottom .footer-bottom-content-div .content1 p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    line-height: 1.5;
+    padding: 0px 0px 50px 100px;
+    color: gray;
+}
+
+/* CONTENT 2 */
+footer .footer-bottom .footer-bottom-content-div .content2{
+    width: 300px;
+}
+
+footer .footer-bottom .footer-bottom-content-div .content2 h5{
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    padding: 75px 0px 50px 0px;
+}
+
+footer .footer-bottom .footer-bottom-content-div .content2 .footer-nav-item{
+    font-family: 'Roboto', sans-serif;
+    list-style: none;
+    font-size: 15px;
+    padding: 10px 0px;
+}
+
+footer .footer-bottom .footer-bottom-content-div .content2 .footer-nav-item a{
+    text-decoration: none;
+}
+
+/* CONTENT 3 */
+footer .footer-bottom .footer-bottom-content-div .content3{
+    width: 300px;
+}
+
+footer .footer-bottom .footer-bottom-content-div .content3 h5{
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    padding: 75px 0px 50px 0px;
+}
+
+footer .footer-bottom .footer-bottom-content-div .content3 p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    line-height: 1.5;
+    padding-bottom: 15px;
+    color: gray;
+}
+
+footer .footer-bottom .footer-bottom-content-div .content3 .content3-icon-wrapper a{
+    padding-right: 15px;
+    color: gray;
+}
